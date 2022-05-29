@@ -1,7 +1,7 @@
 # Getting Started App 
 # you can start the project using the command
 ## `npm start`
-#project filder structure
+#project folder structure
 root
 ||--------------src
 ||               ||-api
@@ -22,9 +22,9 @@ App
 # About webpage1
 form-control div
 |
-|---error handler
+|--- # error handler
 |
-|---form(handleSubmit)
+|--- # form(handleSubmit)
 |     | 
 |     |---input Fields
 |               |-name(show error if length<2>)
