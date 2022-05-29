@@ -3,7 +3,7 @@
 ## `npm start`
 #project filder structure
 root
-||--------------src
+*--------------src
 ||               ||-api
 ||               ||-assest
 ||               ||-component
