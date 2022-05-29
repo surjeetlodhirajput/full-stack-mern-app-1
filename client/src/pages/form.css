@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.form-control{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    width: 500px;
+  margin-left: 30%;
+  margin-top: 10%;
+
+}
+.message{
+    display: none;
+}
+.messageerror{
+    display: block;
+    background-color: red;
+}
+.messagesuccess{
+display: block;
+background-color: #10ff00;
+}
+label{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.form-control input{
+    height: 30px;
+    color: black;
+    width: 300px;
+    border: 1px solid gray;
+    opacity: 0.5;
+    border-radius: 2px;
+    margin-left: 5px;
+    
+
+}
+.form-control select{
+    width: 300px;
+    height: 35px;
+    border: 1px solid gray;
+    opacity: 0.5;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+input[type="submit"]{
+    background:#fe6080;
+    color: white;
+    opacity: 0.9;
+}
+input[type="submit"]:hover{
+    background:#fe6090;
+    border: 1px solid white;
+    opacity: 1;
+}
+.nabar{
+    text-decoration: none;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    border: 1px solid gray;
+    padding: 4px;
+    background:#ff8900 ;
+    border-radius: 4px;
+}
+.nabar:hover{
+    background: #ff9900;
+    border: 1px solid #ff8900;
+}
+
+@media screen and (max-width:740px) {
+    .form-control{
+        margin-left:10%;
+    }
+}
+@media screen and (max-width:740px) {
+    .form-control{
+        margin-left:10%;
+    }
+    .form-control input{
+        width: 200px;       
+    }
+}

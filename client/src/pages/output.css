@@ -1,0 +1,103 @@
+.serch{
+display: inline-flex;
+flex-wrap: wrap;
+gap: 20px;
+margin-top: 2px;
+}
+input{
+    height: 30px;
+    width: 240px;
+    margin-left: 10px;
+    border:1px solid gray;
+
+}
+p{
+    text-align: left;
+    display: none;
+}
+.error{
+    display: block;
+    background-color: red;
+}
+.success{
+display: block;
+background-color: #10ff00;
+}
+
+button{
+    width: 100px;
+    left: 2px;
+    height:30px;
+}
+.container{
+    position: absolute;
+    top: 10vw;
+    border: 1px solid gray;
+    margin-left: 35vw;
+    height: auto;
+    width: 400px;
+}
+button{
+    background:#fe6080;
+    color: white;
+    opacity: 0.9;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+button:hover{
+    background:#fe6090;
+    border: 1px solid white;
+    opacity: 1;
+}
+.data-error{
+    display: none;
+}
+.data{
+    display: none;
+}
+.data-success{
+    display: block;
+}
+.data span{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    text-align: left;
+    border-bottom: 2px solid gray;
+    transition: 4s ease-in;
+}
+
+@media screen and (max-width:630px) {
+    .container{
+        margin-left: 20vw;
+    }
+}
+@media screen and (max-width:505px) {
+    .container{
+        width: auto;
+        margin-left: 10vw;
+    }
+    .data span{
+        width: 300px;
+    }
+    button{
+        width: 80px;
+        margin-left: -15px;
+    }
+    input{
+        margin-left: -2px;
+    }
+}
+@media screen and (max-width:350px) {
+    .container{
+        margin-left: 2px;
+    }
+    .serch{
+        display: block;
+        
+    }
+    button{
+        margin-left: 5px;
+    }
+}
